@@ -1,0 +1,186 @@
+﻿body {
+}
+body{
+margin:0;
+padding:0;
+background-image:url(../img/backgroundd.png);
+font-size:12px;
+font-family: Calibri, Arial;
+}
+/*header*/
+#kapsa{
+background-image:url(../img/background.jpg);
+width:100%;
+height:101px;
+}
+#header{
+width:948px;
+height:101px;
+margin:0 auto;
+}
+#logo{
+margin-top:20px;
+}
+#sosyalmediaface{
+position:relative;
+left:255px;
+bottom:55px;
+}
+#sosyalmediatwit{
+position:relative;
+left:255px;
+bottom:55px;
+}
+/*menubar*/
+#menubarkapsa{
+width:100%;
+height:36px;
+background-color:#021e2a;
+}
+#kapsaa{
+width:930px;
+height:30px;
+margin:0 auto;
+}
+#menubarkapsa{
+position:relative;
+bottom:16px;
+margin-bottom:10px;
+}
+ul#menu li{
+list-style-type:none;
+float:left;
+font-weight:bold;
+padding:10px;
+position:relative;
+right:30px;
+}
+ul#menu li a{
+color:white;
+text-decoration:none;
+}
+ul#menu li:hover{
+background-color:#3596bc;
+}
+/*galeri*/
+#galerikapsa{
+width:960px;
+position:relative;
+bottom:15px;
+margin-left:200px;
+margin:0 auto;
+
+background-color:white;
+}
+ul#galeri li{
+position:relative;
+right:40px;
+bottom:10px;
+list-style-type:none;
+}
+ul#secmen li{
+position:relative;
+bottom:20px;
+left:360px;
+list-style-type:none;
+float:left;
+margin-left:10px;
+}
+/*body*/
+#tablo{
+margin:0 auto;
+font-size:10pt;
+}
+#kucuk_basliklar{
+color:green;
+text-decoration:none;
+}
+#devami_color{
+color:red;
+}
+#koyubaslik{
+font-weight:bold;
+}
+#body-alt-kisim{
+width:702px;
+margin:0 auto;
+}
+#yazi-ayar{
+color:red;
+}
+/*Footer*/
+#footer{
+width:100%;
+height:110px;
+background-color:#005a87;
+}
+#link_renk{
+color:white;
+}
+#tablo2{
+margin:0 auto;
+font-size:10pt;
+position:relative;
+top:10px;
+}
+tr#düzenleme td  a{
+text-decoration:none;
+}
+#bize_ulasin{
+width:960px;
+height:790px;
+border:1px solid gray;
+}
+#iletisim{
+font-size:24pt;
+color:gray;
+margin-left:10px;
+}
+#adres{
+width:936px;
+height:690px;
+margin:0 auto;
+border:1px solid gray;
+}
+#adresic{
+width:936px;
+height:380px;
+}
+#adresic2{
+width:936px;
+height:193px;
+}
+#adresic_kutu{
+width:466px;
+height:360px;
+float:left;
+}
+#adresic_harita{
+width:466px;
+height:360px;
+float:left;
+}
+#yerlesme{
+color:blue;
+font-size:13pt;
+margin-left:15px;
+}
+#adress{
+margin-left:15px;
+}
+#harita-yazi{
+font-size:12pt;
+}
+#harita{
+margin-left:15px;
+}
+#form{
+width:594px;
+height:285px;
+border:1px solid gray;
+margin:0 auto;
+}
+.style1
+{
+    margin-left:15px;    
+}

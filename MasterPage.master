@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SINAV EĞİTİM KURUMLARI</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="css/sifirlama.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#galeri img").hide();
+        $("#galeri img:first").show();
+        $("#secmen li").hover(function () {
+            var index = $(this).index();
+            $("#galeri img").hide();
+            $("#galeri img").eq(index).show();
+        });
+    }); 
+</script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div id="kapsa">
+	<div id="header">
+		<a href="#"><img src="img/logo.png" id="logo"></img></a>
+		<a href="#"><img src="img/facebook.png" id="sosyalmediaface"></img></a>
+		<a href="#"><img src="img/twitter.png" id="sosyalmediatwit"></img></a>
+	</div>
+</div>
+<div id="menubarkapsa">	
+	<ul id="menu">
+		<div id="kapsaa">
+			<li><a href="index.aspx">ANASAYFA</a></li>
+			<li><a href="#">KURUMSAL</a></li>
+			<li><a href="#">İNSAN KAYNAKLARI</a></li>
+			<li><a href="#">WEBMAİL</a></li>
+			<li><a href="bizeulasin.aspx">BİZE ULAŞIN</a></li>
+		</div>
+	</ul>
+
+</div>
+<div id="galerikapsa">
+	<ul id="galeri">
+		<li><img src="img/sld1.jpg" alt=""></img></li>
+		<li><img src="img/sld2.jpg" alt=""></img></li>
+		<li><img src="img/sld3.jpg" alt=""></img></li>
+		<li><img src="img/sld4.jpg" alt=""></img></li>
+		<li><img src="img/sld5.jpg" alt=""></img></li>
+		<li><img src="img/sld6.jpg" alt=""></img></li>
+		<li><img src="img/sld7.jpg" alt=""></img></li>
+	</ul>
+	<ul id="secmen">
+		<li><img src="img/buton.png" alt=""></img></li>
+		<li><img src="img/buton.png" alt=""></img></li>
+		<li><img src="img/buton.png" alt=""></img></li>
+		<li><img src="img/buton.png" alt=""></img></li>
+		<li><img src="img/buton.png" alt=""></img></li>
+		<li><img src="img/buton.png" alt=""></img></li>
+		<li><img src="img/buton.png" alt=""></img></li>
+	</ul>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <img src="img/alt_kisim_cizgi.jpg"></img>
+</div>
+<div id="footer">
+<table  height="70px" id="tablo2">
+	<tr id="düzenleme">
+		<td width="200px" >
+		<a href="#" id="link_renk">SINAV DERGİSİ DERSHANELERİ</a><br>
+		<a href="#" id="link_renk">SINAV KOLEJLERİ</a><br>
+		<a href="#" id="link_renk">SINAV AKADEMİLERİ</a><br>
+		<a href="#" id="link_renk">SINAV YAYINLARI</a><br>
+		</td>
+		<td width="200px">
+		<a href="#" id="link_renk">KURUMSAL</a><br>
+		<a href="#" id="link_renk">İNSAN KAYNAKLARI</a><br>
+		<a href="#" id="link_renk">WEB MAİL</a><br>
+		<a href="#" id="link_renk">İLETİŞİM</a><br>
+		</td >
+		<td width="200px">
+		<a href="#" id="link_renk">ŞUBE GİRİŞİ</a><br>
+		<a href="#" id="link_renk">SINAVNET</a><br>
+		<a href="#" id="link_renk">SİNAVİZYON</a><br>
+		<a href="#" id="link_renk">SANAL MAĞAZA</a><br>
+		</td>
+		<td width="340px" id="link_renk">
+		ALINTERİ BULVARI UZAYÇAĞI CADDESİ 
+1249. SOKAK NO:5 OSTİM - ANKARA
+TELEFON 0312 385 4003
+MAİL : bilgi@sinav.com.tr
+SINAV KOLEJLERİ	İNSAN KAYNAKLARI	SINAVNET
+SINAV AKADEMİLERİ	WEB MAİL	SİNAVİZYON
+SINAV YAYINLARI	İLETİŞİM	SANAL MAĞAZA
+
+		</td>
+	</tr>
+</table>
+</div>
+</body>
+</html>
